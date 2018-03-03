@@ -1,0 +1,16 @@
+{
+  "name": "api-tests-baseline",
+  "version": "0.0.1",
+  "description": "Example of API Tests",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chakram": "^1.5.0",
+    "mocha": "^5.0.1"
+  },
+  "scripts": {
+    "test": "mocha test --timeout 5000"
+  }
+}
